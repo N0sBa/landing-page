@@ -24,11 +24,9 @@ Large: 1.8
 --- 02 COLORS
 - Primary: #696D76
 - Tints:
-
 #000000
 
 - Shades: 
-
 
 - Accents:
 - Greys:
@@ -133,4 +131,29 @@ Large: 1.8
     border-radius: 6px;
     background-color: #212832;
     color: #ffffff;
+}
+
+/****************/
+/*SECTION HERO*/
+/****************/
+.section-hero {
+    margin-top: 6.4rem;
+}
+.hero-box {
+    display: flex;
+}
+.hero-text-box {
+
+}
+.email {
+
+}
+.get-started-btn {
+
+}
+.hero-img-box {
+
+}
+.hero-img {
+    max-height: 57rem;
 }
