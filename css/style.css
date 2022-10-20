@@ -325,17 +325,19 @@ Large: 1.8
     display: grid;;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
-    row-gap: 3rem;
+    column-gap: 3rem;
 }
 .testimonial-head {
     grid-column: 1/-1;
     text-align: center;
+
+    margin-bottom: 7rem;
 }
 .testimonial-head-title {
     font-weight: 700;
     font-size: 4rem;
     line-height: 5rem;
-    color: #212832;
+    color: #212832; 
     margin-top: 1.2rem;
 }
 .testimonial-head-content {
@@ -344,16 +346,50 @@ Large: 1.8
     margin-top: 1.8rem;
 }
 .testimonial-client {
-
 }
 .testimonial-client-comment {
     padding: 2.8rem 4.2rem;
     font-size: 2.2rem;
+    font-style: oblique 10deg;
     line-height: 3.4rem;
     text-align: center;
+    
+    border-radius: 0.8rem;
+    box-shadow: 0px 22px 54px 0px #00000012;
+    position: relative;
+
+    margin-bottom: 3.6rem;
 }
-.testimonial-client-information {}
-.testimonial-client-ava {}
+
+.testimonial-client-comment::after {
+    /* content: "";
+    border-bottom-right-radius: 0.4rem;
+    width: 4.2rem;
+    height: 4.2rem;
+    background: #ffffff;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg); */
+
+    /*Make triangle down but can not use box-shadow*/
+    /* width: 0;
+    height: 0;
+    border-left: 6rem solid transparent;
+    border-right: 6rem solid transparent;
+    border-top: 6rem solid #ffffff; */
+}
+
+.testimonial-client-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial-client-ava {
+    width: 11rem;
+    border-radius: 50%;
+    background-color: #4AB5E3;
+}
 .testimonial-client-name {}
 .testimonial-client-field {}
 .testimonial-paging {}
