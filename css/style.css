@@ -531,3 +531,52 @@ Large: 1.8
 .blog-list-item-content > a:hover {
     color: #7264D6;
 }
+
+/************************************/
+/*CTA TESTIMONIAL*/
+/************************************/
+.section-cta {
+    margin-top: 16rem;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 4.9rem 11.2rem;
+}
+.cta-box {
+    background-image: url('../image/cta-background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #7264D6;
+    padding: 5.1rem 25.6rem;
+}
+.cta-title {
+    margin-top: 1.2rem;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 5rem;
+}
+.cta-detail {
+    margin-top: 1.8rem;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+}
+.cta-btn-box {
+    margin-top: 3.8rem;
+    color: #7264D6;
+}
+.cta-btn {
+    background-color: #FFFFFF;
+    padding: 1.8rem 3.1rem;
+}
+.cta-btn-content {
+    display: grid;
+    grid-template-columns: 1 1;
+}
+.cta-btn-icon {
+    grid-row: 1/-1;
+}
+.i-google-play {
+    width: 2.4rem;
+    height: 2.4rem;
+    background-image: url('../image/google-play.png');
+}
