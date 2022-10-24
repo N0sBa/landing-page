@@ -545,9 +545,10 @@ Large: 1.8
     background-image: url('../image/cta-background.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: 80%;
     background-color: #7264D6;
-    padding: 5.1rem 25.6rem;
+    padding: 10rem 36.7rem 10rem 36.7rem;
+    border-radius: 2.4rem;
 }
 .cta-title {
     margin-top: 1.2rem;
@@ -563,20 +564,28 @@ Large: 1.8
 .cta-btn-box {
     margin-top: 3.8rem;
     color: #7264D6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
 }
 .cta-btn {
+    display: block;
     background-color: #FFFFFF;
     padding: 1.8rem 3.1rem;
+    text-decoration: none;
+    border-radius: 0.6rem;
 }
-.cta-btn-content {
-    display: grid;
-    grid-template-columns: 1 1;
-}
-.cta-btn-icon {
-    grid-row: 1/-1;
+.cta-btn-img {
+    height: 2.8rem;
 }
 .i-google-play {
-    width: 2.4rem;
-    height: 2.4rem;
+    width: 100%;
     background-image: url('../image/google-play.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+.cta-btn-text {
+    text-align: start;
+}
+
