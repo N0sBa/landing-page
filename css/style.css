@@ -584,11 +584,15 @@ Large: 1.8
 /*FOOTER*/
 /************************************/
 .footer {
+    margin-top: 10rem;
     background-color: #FAFBFF;
 }
-.footer-box {}
+.footer-box {
+    padding: 10rem 0 0 0;
+}
 .footer-link-list {
     display: flex;
+    justify-content: space-between;
 }
 .sitemap {}
 .sitemap-title {}
@@ -609,4 +613,14 @@ Large: 1.8
 .footer-contact-infor {}
 .footer-contact-infor__email {}
 .footer-contact-infor__telephone {}
-.footer-copy-right {}
+.footer-copy-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2.8rem 0;
+    background-color: #7264D6;
+}
+.footer-copy-right-text {
+    color: #ffffff;
+}
