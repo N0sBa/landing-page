@@ -539,7 +539,7 @@ Large: 1.8
     margin-top: 16rem;
     color: #FFFFFF;
     text-align: center;
-    padding: 4.9rem 11.2rem;
+    /* padding: 4.9rem 11.2rem; */
 }
 .cta-box {
     background-image: url('../image/cta-background.png');
@@ -579,13 +579,34 @@ Large: 1.8
 .cta-btn-img {
     height: 2.8rem;
 }
-.i-google-play {
-    width: 100%;
-    background-image: url('../image/google-play.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.cta-btn-text {
-    text-align: start;
-}
 
+/************************************/
+/*FOOTER*/
+/************************************/
+.footer {
+    background-color: #FAFBFF;
+}
+.footer-box {}
+.footer-link-list {
+    display: flex;
+}
+.sitemap {}
+.sitemap-title {}
+.sitemap-list {}
+.sitemap-list-item {}
+.social {}
+.social-title {}
+.social-list {}
+.social-list-item {}
+.head-office-and-news-letter {}
+.head-office {}
+.head-office-title {}
+.head-office-address {}
+.news-letter {}
+.news-letter-title {}
+.email-input {}
+.subscribe-btn {}
+.footer-contact-infor {}
+.footer-contact-infor__email {}
+.footer-contact-infor__telephone {}
+.footer-copy-right {}
